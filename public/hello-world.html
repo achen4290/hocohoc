@@ -1,0 +1,365 @@
+<!doctype html>
+
+<html lang="en">
+
+<head style="margin: 0">
+    <meta charset="utf-8">
+
+    <title>HoCo Hour of Code</title>
+
+    <link rel="icon" href="logo.svg">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="formatting.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="article-styles.css">
+    <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/tomorrow-night-blue.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script type="text/javascript">
+        function login_disabled() {
+          alert('Login is disabled after the event.');
+        }
+    </script>
+</head>
+
+<body style="margin: 0">
+    <div class="navbar-shadow full-width margin-0 padding-0">
+        <div class="max-w-6xl block-center">
+            <nav class="navbar">
+                <div class="flex justify-between h-16">
+                    <div class="flex justify-left items-center">
+                        <a href="index.html">
+                            <img src="logo.svg" alt="logo.svg" class="h-16">
+                        </a>
+                        <div style="width: 4rem"></div>
+                        <div class="hvr-underline-reveal">
+                            <a href="index.html" class="navbar-font color-grey margin-4 full-height">
+                                <div class="navbar-tile">
+                                    Home
+                                </div>
+                            </a>
+                        </div>
+                        <div style="width: 4rem"></div>
+                        <div class="hvr-underline-reveal">
+                            <a href="articles.html" class="navbar-font color-grey margin-4 full-height">
+                                <div class="navbar-tile">
+                                    Articles
+                                </div>
+                            </a>
+                        </div>
+                        <div style="width: 4rem"></div>
+                        <div class="hvr-underline-reveal">
+                            <a href="leaderboard.html" class="navbar-font color-grey margin-4 full-height">
+                                <div class="navbar-tile">
+                                    Leaderboard
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-left items-center">
+                        <div class="hvr-underline-reveal">
+                            <a href="javascript:login_disabled()" class="navbar-font color-grey h-16 margin-4 login">
+                                <div class="navbar-tile username">
+                                    Login
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="relative pt-6 pb-32 full-width block-center padding-0" style="border: 0 solid white">
+        <div class="max-w-2xl block-center">
+            <div class="flex flex-column lm-4 rm-4">
+                <div class="color-grey mb-1">Sponsored by Thorn Technologies</div>
+                <div class="h-48 full-width rounded-md bg-hcpss-offwhite mb-12 text-center lh-12 fs-2 color-grey">
+                    <a href="https://www.thorntech.com/">
+                        <img src="sponsors/banner-thorn-technologies.png" alt="banner-thorn-technologies.png" class="full-width block-center margin-0 padding-0">
+                    </a>
+                </div>
+                <!-- Title -->
+                <div class="full-width article-title">Hello World!</div>
+
+                <!-- Tags -->
+                <div class="flex">
+                    <div class="article-tag bg-hcpss-blue color-white rounded-md padding-1 rm-2">3pts</div>
+                    <div class="article-tag bg-blue2 color-blue5 rounded-md padding-1 rm-2">Python</div>
+                    <div class="article-tag bg-blue2 color-blue5 rounded-md padding-1 rm-2">Java</div>
+                    <div class="article-tag bg-blue2 color-blue5 rounded-md padding-1 rm-2">C++</div>
+                    <div class="article-tag bg-blue2 color-blue5 rounded-md padding-1 rm-2">Syntax</div>
+                </div>
+
+                <!-- Subtitle -->
+                <div class="article-subtitle color-grey mt-2">
+                    An introduction to syntax, printing, and entry points.
+                </div>
+
+                <!-- Content -->
+                <div class="article-content color-black mt-6 mb-3">
+                    The <b>“Hello World!”</b> program is the first step in learning how to code with any language. This
+                    tradition was first established in the 70s by Nokia Bell Labs and has since advanced into the famous
+                    first line of code that most programmers write. It is a program that prints the text “Hello World!”
+                    to some output stream, usually the console, and it’s primarily taught for three purposes:
+                    <ul>
+                        <li class="mb-2">To illustrate the basic syntax of a language</li>
+                        <li class="mb-2">To check that you have correctly installed your computer language.</li>
+                        <li class="mb-2">To teach printing
+                            <ul>
+                                <li class="mt-2">Printing is a handy tool because you can use it for debugging
+                                    regardless of what language or IDE you are running</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    Here are some examples of how printing works:
+                </div>
+
+                <!-- Steps to add additional code: -->
+                <!-- 1. change radio name to unique name shared among all tabs -->
+                <!-- 2. change all tab ids to unique ids, and copy the unique id to the label -->
+                <div class="tabs mb-12">
+                    <input type="radio" name="tabs1" id="tab-1" checked="checked">
+                    <label for="tab-1">Python</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="python rounded-md code-text mt-2 padding-0.5">print("Hello World!")</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Hello World!
+                        </div>
+                    </div>
+
+                    <input type="radio" name="tabs1" id="tab-2">
+                    <label for="tab-2">Java</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="java rounded-md code-text mt-2 padding-0.5">System.out.println("Hello World!");</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Hello World!
+                        </div>
+                    </div>
+
+                    <input type="radio" name="tabs1" id="tab-3">
+                    <label for="tab-3">C++</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="cpp rounded-md code-text mt-2 padding-0.5">cout << "Hello World!";</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Hello World!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs mb-12">
+                    <input type="radio" name="tabs2" id="tab-4" checked="checked">
+                    <label for="tab-4">Python</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="python rounded-md code-text mt-2 padding-0.5">print("Big thank you to all contributors to Hour of Code!")</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Big thank you to all contributors to Hour of Code!
+                        </div>
+                    </div>
+
+                    <input type="radio" name="tabs2" id="tab-5">
+                    <label for="tab-5">Java</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="java rounded-md code-text mt-2 padding-0.5">System.out.println("Big thank you to all contributors to Hour of Code!");</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Big thank you to all contributors to Hour of Code!
+                        </div>
+                    </div>
+
+                    <input type="radio" name="tabs2" id="tab-6">
+                    <label for="tab-6">C++</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="cpp rounded-md code-text mt-2 padding-0.5">cout << "Big thank you to all contributors to Hour of Code!";</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Big thank you to all contributors to Hour of Code!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs mb-3">
+                    <input type="radio" name="tabs3" id="tab-7" checked="checked">
+                    <label for="tab-7">Python</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="python rounded-md code-text mt-2 padding-0.5">print("I like to eat pizza!")</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > I like to eat pizza!
+                        </div>
+                    </div>
+
+                    <input type="radio" name="tabs3" id="tab-8">
+                    <label for="tab-8">Java</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="java rounded-md code-text mt-2 padding-0.5">System.out.println("I like to eat pizza!");</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > I like to eat pizza!
+                        </div>
+                    </div>
+
+                    <input type="radio" name="tabs3" id="tab-9">
+                    <label for="tab-9">C++</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="cpp rounded-md code-text mt-2 padding-0.5">cout << "I like to eat pizza!";</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > I like to eat pizza!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="full-width bg-blue1 padding-3 color-blue5 border-box lborder-blue3 mb-12">
+                    Note: When you print text, everything between the quotation marks is printed to the output.
+                </div>
+
+                <div class="article-content-sectiontitle color-black">Entry points</div>
+                <div class="article-content color-black mt-6 mb-3">
+                    Another important beginner concept is <b>entry points</b>. Entry points are where your program will begin to run. In Java and C++, the <b>main</b> function/method (you will learn more about functions and methods later) marks this entry point. That means to get the “Hello World!” examples from above to run in these languages, you will need to put your code inside the brackets after the main function/method. The entry points for getting our previous printing code to run are marked below; only code after the entry point will run. 
+                </div>
+                <div class="tabs mb-3">
+                    <input type="radio" name="tabs4" id="tab-11" checked="checked">
+                    <label for="tab-11">Java</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="java rounded-md code-text mt-2 padding-0.5">public class HelloWorld{
+    public static void main(String[] args)
+    { 
+        // THIS IS THE ENTRY POINT
+        System.out.println("Hello World!");
+    }
+}</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Hello World!
+                        </div>
+                    </div>
+
+                    <input type="radio" name="tabs4" id="tab-12">
+                    <label for="tab-12">C++</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="cpp rounded-md code-text mt-2 padding-0.5">#include &lt;iostream>
+
+using namespace std;
+
+int main()
+{ 
+    // THIS IS THE ENTRY POINT
+    cout << "Hello World!";
+    return 0;
+}</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Hello World!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article-content color-black mb-3">
+                    Python is executed differently from Java and C++. It simply runs all code from the very first line to the very bottom line, and this means you don’t need to mark any entry points like in Java or C++. The same python code from before, copied below for convenience, will run fine.
+                </div>
+
+                <div class="tabs mb-3">
+                    <input type="radio" name="tabs5" id="tab-10" checked="checked">
+                    <label for="tab-10">Python</label>
+                    <div class="tab">
+                        Code:
+                        <pre
+                            class="margin-0 padding-0"><code class="python rounded-md code-text mt-2 padding-0.5">print("Hello World!")</code></pre>
+                        <div class="h-8"></div>
+                        Output:
+                        <div class="output-text bg-code-blue rounded-md color-white padding-0.5 mt-2">
+                            > Hello World!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="full-width bg-blue1 padding-3 color-blue5 border-box lborder-blue3 mb-3">
+                    Note: It’s possible to structure your code in Python to define an entry point that isn’t the first line, but it isn't necessary to get the code running. In Java and C++, you need to define an entry point, or your code will not run.
+                </div>
+
+                <div class="article-content color-black mb-3">
+                    Many of the future articles won’t include marked entry points because they take a lot of space and don’t add much instructional value, but it’s essential to know that if you want to get code running on your computer, you will need to use entry points for Java and C++.
+                </div>
+
+                <div class="article-content color-black mb-3">
+                    You can play with all the code we've used in this article on Replit:
+                </div>
+
+                <div class="tabs mb-12">
+                    <input type="radio" name="tabs100" id="tab-100" checked="checked">
+                    <label for="tab-100">Python</label>
+                    <div class="tab">
+                        <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@RHHSProgramming/hello-world-python?lite=true"></iframe>
+                    </div>
+
+                    <input type="radio" name="tabs100" id="tab-101">
+                    <label for="tab-101">Java</label>
+                    <div class="tab">
+                        <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@RHHSProgramming/hello-world-java?lite=true"></iframe>
+                    </div>
+
+                    <input type="radio" name="tabs100" id="tab-102">
+                    <label for="tab-102">C++</label>
+                    <div class="tab">
+                        <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@RHHSProgramming/hello-world-cpp?lite=true"></iframe>
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="relative pt-6 pb-6 full-width bg-hcpss-offwhite block-center padding-0" style="border: 0 solid white">
+        <div class="max-w-4xl block-center text-center">
+          Join our <a href="https://discord.com/invite/tAKa8NapXD" style="display: inline">discord server</a> for updates, announcements, future event planning, to ask questions, or just for fun!<br>
+            Copyright &copy;2021 Howard County Hour of Code
+        </div>
+      </div>
+
+      
+</body>

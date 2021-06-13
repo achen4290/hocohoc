@@ -1,0 +1,166 @@
+:root { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: 'Inter var', sans-serif; }
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.subtitle {
+    font-size: 1rem;
+}
+
+.fs-1\.25 {
+    font-size: 1.25rem;
+}
+
+.fs-1\.875 {
+    font-size: 1.875rem;
+}
+
+.fs-3 {
+    font-size: 3rem;
+}
+
+.fs-2\.5 {
+    font-size: 2.5rem;
+}
+
+.fs-2\.25 {
+    font-size: 2.25rem;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.lh-6 {
+    line-height: 6rem;
+}
+
+.lh-12 {
+    line-height: 12rem;
+}
+
+.lh-5\.5 {
+    line-height: 5.5rem;
+}
+
+.lh-5 {
+    line-height: 5rem;
+}
+
+.lh-4\.5 {
+    line-height: 4.5rem;
+}
+
+.lh-4 {
+    line-height: 4rem;
+}
+
+.lh-1\.75 {
+    line-height: 1.75rem;
+}
+
+h1 {
+    font-size: 3.125rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.hcpss-blue {
+    color: #3594D2;
+}
+
+.color-orangered {
+    color: orangered;
+}
+
+.color-darkred {
+    color: #8b0000;
+}
+
+.color-light-blue {
+    color: #DBEAFD;
+}
+
+.color-black {
+    color: black;
+}
+
+.hcpss-black {
+    color: #444444;
+}
+
+.color-grey {
+    color: #6B7280;
+}
+
+.color-greychateau {
+    color: #9ca3af;
+}
+
+.color-blue1 {
+    color: #eef0f6;
+}
+
+.color-blue2 {
+    color: #cfdaec;
+}
+
+.color-blue3 {
+    color: #9cb9d1;
+}
+
+.color-blue4 {
+    color: #759cd8;
+}
+
+.color-blue5 {
+    color: #094d74;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.color-brown {
+    color: burlywood;
+}
+
+.hcpss-offwhite {
+    color: #F4F4EF;
+}
+
+.color-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

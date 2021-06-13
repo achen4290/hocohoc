@@ -1,0 +1,22 @@
+.navbar {
+    position: relative;
+}
+
+.navbar a:link { text-decoration: none; }
+.navbar a:visited { text-decoration: none; }
+.navbar a:hover {
+    color: #444444; 
+}
+.navbar a:active { text-decoration: none; }
+
+.navbar-font {
+    font-size: 18px;
+}
+
+.navbar-tile {
+    flex-grow: 1;
+}
+
+.navbar-shadow {
+    box-shadow: 0 2px 1px -1px #CDCDCD;
+}

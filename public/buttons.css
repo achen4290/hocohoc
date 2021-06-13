@@ -1,0 +1,16 @@
+.btn-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.btn-mobile {
+    opacity: 1;
+    padding: 3rem;
+}
+
+.btn-1 a:link { text-decoration: none; }
+.btn-1 a:visited { text-decoration: none; }
+.btn-1 a:hover { text-decoration: none; }
+.btn-1 a:active { text-decoration: none; }
